@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ionic com JS</title>
+    <link href="https://unpkg.com/@ionic/core@4.0.0-rc.1/css/ionic.bundle.css" rel="stylesheet">
+    <script src="https://unpkg.com/@ionic/core@4.0.0-rc.1/dist/ionic.js"></script>
+</head>
+<body>
+    <ion-button shape="round" color="primary" fill="outline" onclick="criarComponente()" >Criar Componente Toggle</ion-button>
+
+    <script>
+        function criarComponente(){
+        let toggle = document.createElement('ion-toggle');
+        document.body.appendChild(toggle);
+        }
+    </script>
+    
+</body>
+</html>

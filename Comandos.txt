@@ -1,0 +1,13 @@
+code . abre o visual studio code na pasta
+
+ctrl k c comenta
+
+ctrl k u descomenta
+
+// gerar apk para android
+ionic cordova build android
+
+// Cria uma nova pagina 
+ionic generate page
+
+se digitiar apenas ionic generate ele dará opções
