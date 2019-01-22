@@ -18,7 +18,7 @@ export class LayoutPage implements OnInit {
   }
 
   openLayoutTabs(){
-    this.navCtrl.navigateForward('layout-tabs');
+    this.navCtrl.navigateForward('tabs');
   }
 
   openLayoutMenu(){

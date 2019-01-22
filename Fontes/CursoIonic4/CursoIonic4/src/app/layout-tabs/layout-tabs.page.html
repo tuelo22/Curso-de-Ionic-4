@@ -1,9 +1,47 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>layoutTabs</ion-title>
-  </ion-toolbar>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-back-button></ion-back-button>
+        </ion-buttons>
+        <ion-title>
+            Layout - Tabs
+        </ion-title>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
+  <ion-tabs>
+    <ion-tab tab="home" label="Home" icon="home">
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>Home</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content padding>
+        <h2>Conteudo da minha pagina Home</h2>
+      </ion-content>
+    </ion-tab>
+ 
+    <ion-tab tab="mapa" label="Mapa" icon="map" disable="true">
+        <ion-header>
+            <ion-toolbar>
+              <ion-title>Mapa</ion-title>
+            </ion-toolbar>
+          </ion-header>
+          <ion-content padding>
+            <h2>Conteudo da minha pagina Mapa</h2>
+          </ion-content>
+    </ion-tab>
 
+    <ion-tab tab="notificacoes" label="Notificações" icon="alert" badge="5" badgeColor="danger">
+        <ion-header>
+            <ion-toolbar>
+              <ion-title>Notificações</ion-title>
+            </ion-toolbar>
+          </ion-header>
+          <ion-content padding>
+            <h2>Conteudo da minha pagina Notificações</h2>
+          </ion-content>
+    </ion-tab>
+  </ion-tabs>
 </ion-content>
